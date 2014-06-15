@@ -1,0 +1,47 @@
+---
+title       : Housing Market 
+subtitle    : Bubble or not
+author      : SK
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [shiny,interactive]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+runtime     : shiny
+---
+
+## Slide 1 - Market
+
+1. Select a US region of interest 
+2. Choices: 1. US 2. Northeast 3. Midwest 4. South 5. West
+3. Years: 1975 to 2012
+4. Output includes the following
+5. a. Time series data for the selected region; b. Box plot for the region of interest; c. MHI/MHP ratio for the different regions
+
+--- .class #id
+## Slide 2
+
+<iframe src = 'https://srk-2.shinyapps.io/HousingMarket' height='600px'></iframe>
+
+
+--- 
+## Slide 3
+
+
+
+Simple Time Series Data using three R-datasets to show the use of reactivity 
+
+
+1. Number of Sunspots
+2. Number of Discoveries per year; 
+3. New Haven Average Yearly Temperature
+
+--- .class #id
+
+## Slide 4
+
+<iframe src = 'https://srk-2.shinyapps.io/ShinyApp_InbuiltDataset' height='600px'></iframe>
+
+
