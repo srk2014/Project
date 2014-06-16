@@ -1,7 +1,8 @@
 # ui.R
 
 shinyUI(fluidPage(
-  titlePanel("Housing Market: Median Home Price (MHP) to Median Household Income (MHI) Ratio"),
+  titlePanel("Housing Market: 
+             Median New Home Price (MNHP) to Median Household Income (MHI) Ratio"),
   
   sidebarLayout(
     sidebarPanel(

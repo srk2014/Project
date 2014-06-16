@@ -18,7 +18,9 @@ runtime     : shiny
 2. Choices: 1. US 2. Northeast 3. Midwest 4. South 5. West
 3. Years: 1975 to 2012
 4. Output includes the following
-5. a. Time series data for the selected region; b. Box plot for the region of interest; c. MHI/MHP ratio for the different regions
+5. a. Time series data for the selected region; 
+   b. Box plot for the region of interest; 
+   c. MNHP/MHI ratio for the different regions
 
 --- .class #id
 ## Slide 2
@@ -26,7 +28,7 @@ runtime     : shiny
 <iframe src = 'https://srk-2.shinyapps.io/HousingMarket' height='600px'></iframe>
 
 
---- .class #id
+--- 
 ## Slide 3
 
 
@@ -44,4 +46,4 @@ Simple Time Series Data using three R-datasets to show the use of reactivity
 
 <iframe src = 'https://srk-2.shinyapps.io/ShinyApp_InbuiltDataset' height='600px'></iframe>
 
-```
+

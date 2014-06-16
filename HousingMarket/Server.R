@@ -9,7 +9,7 @@ shinyServer(
     
     output$RatioPlot <- renderPlot({
     require(graphics)
-    plot(tempfile[,1], tempfile[,input$var], main = "Years vs MHP/MHI Ratio", xlab = "Years", ylab = "Ratio", las = 1)
+    plot(tempfile[,1], tempfile[,input$var], main = "Years vs MNHP/MHI Ratio", xlab = "Years", ylab = "Ratio", las = 1)
     })
     
     output$text2 <- renderText({ 
